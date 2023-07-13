@@ -10,6 +10,7 @@ import Menu from "./components/Menu/page";
 
 /* styles */
 import "./styles/global.scss";
+import Footer from "./components/Footer/page";
 const Layout = () => {
     return (
         <div className="main">
@@ -22,6 +23,7 @@ const Layout = () => {
                     <Outlet />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
