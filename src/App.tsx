@@ -8,6 +8,8 @@ import Products from "./pages/Products/page";
 import Navbar from "./components/Navbar/page";
 import Menu from "./components/Menu/page";
 
+/* styles */
+import "./styles/global.scss";
 const Layout = () => {
     return (
         <div className="main">
